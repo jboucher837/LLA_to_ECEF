@@ -12,7 +12,7 @@ from scipy.interpolate import interp1d
 
 def main():
     # Read the CSV file
-    df = pd.read_csv('SciTec_code_problem_data.csv')
+    df = pd.read_csv('coords_dat.csv')
     column_names = ['Time since the Unix epoch [seconds]', 'WGS84 latitude [degrees]', 'WGS84 longitude [degrees]', 'WGS84 altitude [kilometers]']
     df.columns = column_names
 
